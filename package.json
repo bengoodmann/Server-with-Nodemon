@@ -1,0 +1,16 @@
+{
+  "name": "server-with-nodemon",
+  "version": "1.0.0",
+  "description": "A simple NodeJS server that restarts due to changes. Nodemon, an npm package is responsible for the update when changes are made.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
